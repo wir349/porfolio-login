@@ -1,0 +1,33 @@
+//
+//  PrefixHeader.pch
+//  test
+//
+//  Created by Waleed Rahman on 5/12/15.
+//  Copyright (c) 2015 Waleed. All rights reserved.
+//
+
+#ifndef test_PrefixHeader_pch
+#define test_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "ApplicationConstants.h"
+#import "AppUtility.h"
+#import "UserModel.h"
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import <CoreLocation/CoreLocation.h>
+#import <QuartzCore/QuartzCore.h>
+#import <MapKit/MapKit.h>
+#import <AudioToolbox/AudioToolbox.h>
+#import <AVFoundation/AVFoundation.h>
+#import <Twitter/Twitter.h>
+#import <Social/Social.h>
+#import "AccountService.h"
+
+
+#endif
+
+

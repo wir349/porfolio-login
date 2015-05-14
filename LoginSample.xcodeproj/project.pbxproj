@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F15E126AFDCD1FBAE1FDE49 /* libPods-LoginSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBB3C3DA91321ACB2ECB932 /* libPods-LoginSample.a */; };
 		7E727C351B04233C00F23CD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E727C341B04233C00F23CD0 /* main.m */; };
 		7E727C381B04233C00F23CD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E727C371B04233C00F23CD0 /* AppDelegate.m */; };
 		7E727C3B1B04233C00F23CD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E727C3A1B04233C00F23CD0 /* ViewController.m */; };
@@ -14,6 +15,16 @@
 		7E727C401B04233C00F23CD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E727C3F1B04233C00F23CD0 /* Images.xcassets */; };
 		7E727C431B04233C00F23CD0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E727C411B04233C00F23CD0 /* LaunchScreen.xib */; };
 		7E727C4F1B04233C00F23CD0 /* LoginSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E727C4E1B04233C00F23CD0 /* LoginSampleTests.m */; };
+		7E727C7F1B04257300F23CD0 /* AccountGateway.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E727C671B04257300F23CD0 /* AccountGateway.m */; };
+		7E727C801B04257300F23CD0 /* BaseApiRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E727C691B04257300F23CD0 /* BaseApiRequest.m */; };
+		7E727C811B04257300F23CD0 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E727C6C1B04257300F23CD0 /* UserModel.m */; };
+		7E727C821B04257300F23CD0 /* AccountService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E727C6F1B04257300F23CD0 /* AccountService.m */; };
+		7E727C831B04257300F23CD0 /* AppUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E727C731B04257300F23CD0 /* AppUtility.m */; };
+		7E727C841B04257300F23CD0 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E727C761B04257300F23CD0 /* BaseViewController.m */; };
+		7E727C851B04257300F23CD0 /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E727C781B04257300F23CD0 /* PaymentViewController.m */; };
+		7E727C861B04257300F23CD0 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E727C7A1B04257300F23CD0 /* SignInViewController.m */; };
+		7E727C871B04257300F23CD0 /* BaseUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E727C7D1B04257300F23CD0 /* BaseUITextField.m */; };
+		85C54E3FC58A53A42983A9AF /* libPods-LoginSampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B22E3CF1B3C1F7EFF9DE7C22 /* libPods-LoginSampleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B20FBF555476AB2D010E908 /* Pods-LoginSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoginSampleTests/Pods-LoginSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7E727C2F1B04233C00F23CD0 /* LoginSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E727C331B04233C00F23CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E727C341B04233C00F23CD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +52,31 @@
 		7E727C481B04233C00F23CD0 /* LoginSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E727C4D1B04233C00F23CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E727C4E1B04233C00F23CD0 /* LoginSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginSampleTests.m; sourceTree = "<group>"; };
+		7E727C661B04257300F23CD0 /* AccountGateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountGateway.h; sourceTree = "<group>"; };
+		7E727C671B04257300F23CD0 /* AccountGateway.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountGateway.m; sourceTree = "<group>"; };
+		7E727C681B04257300F23CD0 /* BaseApiRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseApiRequest.h; sourceTree = "<group>"; };
+		7E727C691B04257300F23CD0 /* BaseApiRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseApiRequest.m; sourceTree = "<group>"; };
+		7E727C6B1B04257300F23CD0 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		7E727C6C1B04257300F23CD0 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		7E727C6E1B04257300F23CD0 /* AccountService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountService.h; sourceTree = "<group>"; };
+		7E727C6F1B04257300F23CD0 /* AccountService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountService.m; sourceTree = "<group>"; };
+		7E727C711B04257300F23CD0 /* ApplicationConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationConstants.h; sourceTree = "<group>"; };
+		7E727C721B04257300F23CD0 /* AppUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUtility.h; sourceTree = "<group>"; };
+		7E727C731B04257300F23CD0 /* AppUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUtility.m; sourceTree = "<group>"; };
+		7E727C751B04257300F23CD0 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		7E727C761B04257300F23CD0 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		7E727C771B04257300F23CD0 /* PaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
+		7E727C781B04257300F23CD0 /* PaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
+		7E727C791B04257300F23CD0 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		7E727C7A1B04257300F23CD0 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		7E727C7C1B04257300F23CD0 /* BaseUITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseUITextField.h; sourceTree = "<group>"; };
+		7E727C7D1B04257300F23CD0 /* BaseUITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseUITextField.m; sourceTree = "<group>"; };
+		7E727C7E1B04257300F23CD0 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8A7C5FE227E514CAE0C36F86 /* Pods-LoginSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoginSample/Pods-LoginSample.release.xcconfig"; sourceTree = "<group>"; };
+		8C4DE0CC657BD90C778F6446 /* Pods-LoginSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoginSample/Pods-LoginSample.debug.xcconfig"; sourceTree = "<group>"; };
+		B22E3CF1B3C1F7EFF9DE7C22 /* libPods-LoginSampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoginSampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46C3F1A5F18BBA5BD813D5D /* Pods-LoginSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoginSampleTests/Pods-LoginSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		ECBB3C3DA91321ACB2ECB932 /* libPods-LoginSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoginSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F15E126AFDCD1FBAE1FDE49 /* libPods-LoginSample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +92,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C54E3FC58A53A42983A9AF /* libPods-LoginSampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		442C55E2CF9D50209EB53442 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C4DE0CC657BD90C778F6446 /* Pods-LoginSample.debug.xcconfig */,
+				8A7C5FE227E514CAE0C36F86 /* Pods-LoginSample.release.xcconfig */,
+				0B20FBF555476AB2D010E908 /* Pods-LoginSampleTests.debug.xcconfig */,
+				C46C3F1A5F18BBA5BD813D5D /* Pods-LoginSampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		66CFB86EF0424C3C7D9B56FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECBB3C3DA91321ACB2ECB932 /* libPods-LoginSample.a */,
+				B22E3CF1B3C1F7EFF9DE7C22 /* libPods-LoginSampleTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7E727C261B04233C00F23CD0 = {
 			isa = PBXGroup;
 			children = (
 				7E727C311B04233C00F23CD0 /* LoginSample */,
 				7E727C4B1B04233C00F23CD0 /* LoginSampleTests */,
 				7E727C301B04233C00F23CD0 /* Products */,
+				442C55E2CF9D50209EB53442 /* Pods */,
+				66CFB86EF0424C3C7D9B56FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +142,13 @@
 		7E727C311B04233C00F23CD0 /* LoginSample */ = {
 			isa = PBXGroup;
 			children = (
+				7E727C651B04257300F23CD0 /* Gateway */,
+				7E727C6A1B04257300F23CD0 /* Models */,
+				7E727C6D1B04257300F23CD0 /* Services */,
+				7E727C701B04257300F23CD0 /* Utilities */,
+				7E727C741B04257300F23CD0 /* ViewControllers */,
+				7E727C7B1B04257300F23CD0 /* Views */,
+				7E727C7E1B04257300F23CD0 /* PrefixHeader.pch */,
 				7E727C361B04233C00F23CD0 /* AppDelegate.h */,
 				7E727C371B04233C00F23CD0 /* AppDelegate.m */,
 				7E727C391B04233C00F23CD0 /* ViewController.h */,
@@ -119,6 +187,67 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7E727C651B04257300F23CD0 /* Gateway */ = {
+			isa = PBXGroup;
+			children = (
+				7E727C661B04257300F23CD0 /* AccountGateway.h */,
+				7E727C671B04257300F23CD0 /* AccountGateway.m */,
+				7E727C681B04257300F23CD0 /* BaseApiRequest.h */,
+				7E727C691B04257300F23CD0 /* BaseApiRequest.m */,
+			);
+			path = Gateway;
+			sourceTree = "<group>";
+		};
+		7E727C6A1B04257300F23CD0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7E727C6B1B04257300F23CD0 /* UserModel.h */,
+				7E727C6C1B04257300F23CD0 /* UserModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7E727C6D1B04257300F23CD0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7E727C6E1B04257300F23CD0 /* AccountService.h */,
+				7E727C6F1B04257300F23CD0 /* AccountService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7E727C701B04257300F23CD0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7E727C711B04257300F23CD0 /* ApplicationConstants.h */,
+				7E727C721B04257300F23CD0 /* AppUtility.h */,
+				7E727C731B04257300F23CD0 /* AppUtility.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7E727C741B04257300F23CD0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7E727C751B04257300F23CD0 /* BaseViewController.h */,
+				7E727C761B04257300F23CD0 /* BaseViewController.m */,
+				7E727C771B04257300F23CD0 /* PaymentViewController.h */,
+				7E727C781B04257300F23CD0 /* PaymentViewController.m */,
+				7E727C791B04257300F23CD0 /* SignInViewController.h */,
+				7E727C7A1B04257300F23CD0 /* SignInViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7E727C7B1B04257300F23CD0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7E727C7C1B04257300F23CD0 /* BaseUITextField.h */,
+				7E727C7D1B04257300F23CD0 /* BaseUITextField.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E727C521B04233C00F23CD0 /* Build configuration list for PBXNativeTarget "LoginSample" */;
 			buildPhases = (
+				01A92170818344E49634CF77 /* Check Pods Manifest.lock */,
 				7E727C2B1B04233C00F23CD0 /* Sources */,
 				7E727C2C1B04233C00F23CD0 /* Frameworks */,
 				7E727C2D1B04233C00F23CD0 /* Resources */,
+				C0B573122894D65A3BDFBCF8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,9 +274,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E727C551B04233C00F23CD0 /* Build configuration list for PBXNativeTarget "LoginSampleTests" */;
 			buildPhases = (
+				6D0837367F944FA181C35BA3 /* Check Pods Manifest.lock */,
 				7E727C441B04233C00F23CD0 /* Sources */,
 				7E727C451B04233C00F23CD0 /* Frameworks */,
 				7E727C461B04233C00F23CD0 /* Resources */,
+				5475DE64D3C185C65C35686B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,13 +347,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01A92170818344E49634CF77 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5475DE64D3C185C65C35686B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoginSampleTests/Pods-LoginSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D0837367F944FA181C35BA3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0B573122894D65A3BDFBCF8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoginSample/Pods-LoginSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E727C2B1B04233C00F23CD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E727C821B04257300F23CD0 /* AccountService.m in Sources */,
+				7E727C841B04257300F23CD0 /* BaseViewController.m in Sources */,
+				7E727C871B04257300F23CD0 /* BaseUITextField.m in Sources */,
 				7E727C3B1B04233C00F23CD0 /* ViewController.m in Sources */,
+				7E727C851B04257300F23CD0 /* PaymentViewController.m in Sources */,
+				7E727C861B04257300F23CD0 /* SignInViewController.m in Sources */,
 				7E727C381B04233C00F23CD0 /* AppDelegate.m in Sources */,
+				7E727C811B04257300F23CD0 /* UserModel.m in Sources */,
+				7E727C831B04257300F23CD0 /* AppUtility.m in Sources */,
+				7E727C801B04257300F23CD0 /* BaseApiRequest.m in Sources */,
+				7E727C7F1B04257300F23CD0 /* AccountGateway.m in Sources */,
 				7E727C351B04233C00F23CD0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,8 +550,11 @@
 		};
 		7E727C531B04233C00F23CD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C4DE0CC657BD90C778F6446 /* Pods-LoginSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LoginSample/PrefixHeader.pch;
 				INFOPLIST_FILE = LoginSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,8 +563,11 @@
 		};
 		7E727C541B04233C00F23CD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A7C5FE227E514CAE0C36F86 /* Pods-LoginSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LoginSample/PrefixHeader.pch;
 				INFOPLIST_FILE = LoginSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -365,6 +576,7 @@
 		};
 		7E727C561B04233C00F23CD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B20FBF555476AB2D010E908 /* Pods-LoginSampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -384,6 +596,7 @@
 		};
 		7E727C571B04233C00F23CD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C46C3F1A5F18BBA5BD813D5D /* Pods-LoginSampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -416,6 +629,7 @@
 				7E727C541B04233C00F23CD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E727C551B04233C00F23CD0 /* Build configuration list for PBXNativeTarget "LoginSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +638,7 @@
 				7E727C571B04233C00F23CD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
