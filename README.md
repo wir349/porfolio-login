@@ -9,6 +9,7 @@ If you want to see a swift-version of this, click here. Right now it's more and 
 In terms of functionality this app is REALLY simple. All it does is mimick a login functionality <b>W/O</b> a real api. No matter which email/password combination you put it'll allow you to login
 
 <b>Architecture</b>
+
 Why need an architecture? What's my inspiration?
 <a href="http://doing-it-wrong.mikeweller.com/2013/06/ios-app-architecture-and-tdd-1.html">A super-awesome article</a>
 
@@ -21,3 +22,5 @@ On a high-level, here are the layers I've separated things into:
 <li>Service - Business Logic mainly</li>
 <li>Gateway - Controls access to APIs</li>
 <ul>
+
+
